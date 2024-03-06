@@ -1,0 +1,18 @@
+# Ignore compiled files
+*.class
+*.jar
+
+# Ignore temporary files
+*.tmp
+
+# Ignore files in a specific directory
+/tmp/
+
+# Ingnore node modules
+/node_modules
+
+# Ignore specific files
+test.html
+*.json
+tailwind.config.js
+postcss.config.js

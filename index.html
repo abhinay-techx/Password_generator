@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+
+
+<body>
+    <div class="wrapper m-0 bg-gray-900 pt-20">
+        <div class="container max-w-2xl mx-auto bg-gray-800 rounded-lg p-6 space-y-6">
+            <!-- Heading -->
+            <div class="heading flex justify-center bg-red-600 text-white">
+                <h2 class="text-lg font-bold uppercase font-serif">Password Generator</h2>
+            </div>
+            <!-- Output -->
+            <div class="results flex justify-center bg-gray-700 p-2 rounded-md">
+                <input type="text" class="bg-transparent border-b border-white text-white text-center font-mono" readonly>
+                <button class="ml-2 bg-blue-500 text-white font-serif px-3 py-1 rounded-md">Copy</button>
+            </div>
+            <!-- Controller -->
+            <div class="controller bg-green-600 p-4 rounded-md">
+                <div class="length-section flex justify-between items-center mb-4">
+                    <label for="passwordLength" class="text-white w-[50%] font-serif text-xl font-medium">Password Length</label>
+                    <input type="range" min="1" max="20" value="10" class="slider w-[40%]" id="passwordLength">
+                    <label type="text" name="pwd-length-value" class="w-[10%] text-white px-2" id="value">
+                </div>
+                <!-- Checkbox section -->
+                <div class="checkbox-section flex flex-wrap justify-between py-6">
+                    <div class="flex items-center text-white font-serif text-lg">
+                        <input type="checkbox" name="uppercase" id="uppercase" class="mr-1 ">Uppercase
+                    </div>
+                    <div class="flex items-center text-white font-serif text-lg">
+                        <input type="checkbox" name="lowercase" id="lowercase" class="mr-1">Lowercase
+                    </div>
+                    <div class="flex items-center text-white font-serif text-lg">
+                        <input type="checkbox" name="numbers" id="numbers" class="mr-1 ">Numbers
+                    </div>
+                    <div class="flex items-center text-white font-serif text-lg">
+                        <input type="checkbox" name="symbols" id="symbols" class="mr-1 ">Symbols
+                    </div>
+                </div>
+                <!-- Strength section -->
+                <div class="strength-section flex justify-between items-center text-white py-4">
+                    <p class="font-serif text-lg font-light">Password Strength</p>
+                    <div class="w-5 h-5 rounded-full bg-red-600"></div>
+                </div>
+                <!-- Generate button -->
+                <div class="button-section flex justify-center">
+                    <button class="bg-blue-500 text-white px-4 py-2 my-4 rounded-md font-serif text-xl font-semibold">Generate Password</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -56,3 +56,117 @@
     background: #4caf50;
     cursor: pointer;
 }
+
+
+/* Styling for the password box */
+#passwordbox {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 8px;
+    font-size: 20px; /* Increase font size */
+    font-family: Arial, sans-serif; /* Change font family */
+}
+
+/* Styling for the copy button */
+#copyButton {
+    font-size: 18px; /* Increase font size */
+    padding: 10px 15px; /* Add padding */
+}
+
+/* Styling for the strength indicator */
+#strength-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+
+
+/* CSS for the message bubble */
+.message-bubble {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+
+
+CSS for the password length section
+.length-section {
+    background-color: #1c2d41 ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.password-length-label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.password-length-slider {
+    width: 60%;
+}
+
+.password-length-value {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* CSS for the checkbox section */
+.checkbox-section {
+    background-color: #1c2d41 ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-label {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* CSS for the strength section */
+.strength-section {
+    background-color: #1c2d41 ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.password-strength-label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.password-strength-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/* CSS for the generate button section */
+.button-section {
+    text-align: center;
+}
+
+.generate-button {
+    background-color: #0941c5;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.generate-button:hover {
+    background-color: #a8150b;
+}

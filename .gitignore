@@ -1,3 +1,6 @@
+# Ignore ignore file
+.gitignore
+
 # Ignore compiled files
 *.class
 *.jar
